@@ -1,5 +1,5 @@
 #
-# $Id: 02-kingdom.t,v 0.1 2006/10/25 09:56:04 dankogai Exp dankogai $
+# $Id: 02-kingdom.t,v 0.1 2006/10/25 09:56:04 dankogai Exp $
 #
 # See http://www.perl.com/pub/a/2006/09/21/onion.html
 use strict;

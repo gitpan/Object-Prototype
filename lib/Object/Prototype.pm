@@ -1,6 +1,6 @@
 package Object::Prototype;
 
-# $Id: Prototype.pm,v 0.1 2006/10/25 09:56:04 dankogai Exp dankogai $
+# $Id: Prototype.pm,v 0.2 2007/04/07 01:57:59 dankogai Exp dankogai $
 use 5.008001;
 use strict;
 use warnings;
@@ -8,7 +8,7 @@ use Carp;
 use Scalar::Util qw(refaddr);
 use Storable ();
 
-our $VERSION = sprintf "%d.%02d", q$Revision: 0.1 $ =~ /(\d+)/g;
+our $VERSION = sprintf "%d.%02d", q$Revision: 0.2 $ =~ /(\d+)/g;
 our $DEBUG = 0;
 my %constructor_of;
 my %prototype_of;
@@ -73,7 +73,7 @@ __END__
 
 =head1 NAME
 
-Object::Prototype - Prototypal Object Model a la Javascript
+Object::Prototype - Prototypal Object Model a la JavaScript
 
 =head1 SYNOPSIS
 
@@ -109,7 +109,8 @@ None.
 
 =item new($obj [, \%methods ])
 
-Deeply clones $obj and make it a prototypal object.  You can optionally add methods by passing a hashref like this;
+Deeply clones $obj and make it a prototypal object.  You can
+optionally add methods by passing a hashref like this;
 
   { method => sub { ... }, method2 => sub { ... } }
 

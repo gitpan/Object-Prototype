@@ -1,4 +1,9 @@
-use 5.008008;
+#
+# $Id: Makefile.PL,v 0.2 2007/04/07 01:57:59 dankogai Exp dankogai $
+#
+use strict;
+use warnings;
+use 5.008001;
 use ExtUtils::MakeMaker;
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
